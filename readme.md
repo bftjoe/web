@@ -1,4 +1,4 @@
 
 # Blog
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+Joseph Huang's blog
