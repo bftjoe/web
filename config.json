@@ -1,0 +1,31 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "Joseph Huang's blog",
+    "owner": "Joseph Huang",
+    "description": "Active Isolated stretching, massage therapy, etc"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "./plugins/blog.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "articles":"a",
+    "perPage": 8
+  },
+  "blog": {
+    "postsDir": "a"
+  }
+}
