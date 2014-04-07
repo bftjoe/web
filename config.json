@@ -1,9 +1,9 @@
 {
   "locals": {
     "url": "http://localhost:8080",
-    "name": "Joseph Huang's blog",
+    "name": "Pain is Optional",
     "owner": "Joseph Huang",
-    "description": "Active Isolated stretching, massage therapy, etc"
+    "description": "Pain relief thru Active Isolated stretching, massage therapy, etc"
   },
   "plugins": [
     "./plugins/paginator.coffee",
